@@ -1,0 +1,32 @@
+[
+  {
+    "subcategory_id": 1,
+    "category_id": 1,
+    "title": "Web dasturlash"
+  },
+  {
+    "subcategory_id": 2,
+    "category_id": 1,
+    "title": "Mobile dasturlash"
+  },
+  {
+    "subcategory_id": 3,
+    "category_id": 2,
+    "title": "web dizayn"
+  },
+  {
+    "subcategory_id": 4,
+    "category_id": 2,
+    "title": "Grafik dizayn"
+  },
+  {
+    "subcategory_id": 4,
+    "category_id": 3,
+    "title": "Matematika"
+  },
+  {
+    "subcategory_id": 5,
+    "category_id": 3,
+    "title": "Fizika"
+  }
+]

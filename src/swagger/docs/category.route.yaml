@@ -1,0 +1,11 @@
+/category:
+  get:
+    tags:
+      - category
+    responses:
+      '200':  
+        description: all category
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/categoryGet'

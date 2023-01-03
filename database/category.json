@@ -1,0 +1,14 @@
+[
+  {
+    "category_id" : 1,
+    "title": "Web dasturlash"
+  },
+  {
+    "category_id" : 2,
+    "title": "Beckend"
+  },
+  {
+    "category_id" : 3,
+    "title": "Ta'lim"
+  }
+]

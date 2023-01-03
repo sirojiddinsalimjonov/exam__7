@@ -1,0 +1,14 @@
+components:
+  schemas:
+    categoryGet:
+      type: object  
+      properties:
+        category_id: 
+          type: integer
+        title:
+          type: string
+          properties:
+            subcategory_id: 
+              type: integer
+            title: 
+              type: string

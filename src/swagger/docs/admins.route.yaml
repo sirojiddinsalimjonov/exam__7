@@ -1,0 +1,114 @@
+/sign:
+  post:
+    tags:
+      - admins
+    requestBody: 
+      description: info admin
+      content:
+        application/json:
+          schema: 
+            $ref: '#/components/schemas/sign'
+      required: true
+    responses:
+      '200':  
+        description: admin info
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/response'
+
+/get_post:
+  get:
+      tags:
+        - admins
+      description: Returns a single admins
+      operationId: getAdminsById
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/postGet'          
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/postGet'
+        '400':
+          description: Invalid ID supplied
+        '404':
+          description: admins not found
+      security:
+        - Bearer:
+            type: oauth2
+/get_rejected:
+  get:
+      tags:
+        - admins
+      description: Returns a single admins
+      operationId: getAdminsById
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/postGet'          
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/postGet'
+        '400':
+          description: Invalid ID supplied
+        '404':
+          description: admins not found
+      security:
+        - Bearer:
+            type: oauth2
+/get_active:
+  get:
+      tags:
+        - admins
+      description: Returns a single admins
+      operationId: getAdminsById
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/postGet'          
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/postGet'
+        '400':
+          description: Invalid ID supplied
+        '404':
+          description: admins not found
+      security:
+        - Bearer:
+            type: oauth2
+/users_reject/{postId}:
+  get:
+    tags:
+    - admins
+    operationAdminId: postId
+    parameters:
+      - name: postId
+        in: path
+    required: true
+    schema:
+      type: integer
+      format: int64
+    responses:
+      '200':
+        description: user login
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/addPost'          
+      '400':
+        description: Invalid ID supplied
+      '404':
+        description: admins not found
+    security:
+        - Bearer:
+            type: oauth2

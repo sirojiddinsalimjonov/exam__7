@@ -1,0 +1,30 @@
+components:
+  schemas:
+    SubcategoryGet:
+      type: object  
+      properties:
+        sub_category_id: 
+          type: integer
+        title:
+          type: string
+          properties:
+            subcategory_id: 
+              type: integer
+            title: 
+              type: string
+    fullNameGet:
+      type: object  
+      properties:
+        status: 
+          type: integer
+        message:
+          type: string
+        data:
+          type: object
+          properties:
+            status: 
+              type: integer
+            message: 
+              type: string 
+            data:
+              type: object

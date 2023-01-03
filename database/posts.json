@@ -1,0 +1,46 @@
+[
+    {
+        "postId": 1,
+        "title": "Web dasturlash",
+        "text": "Hush kelibsiz",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsum ratione voluptas dolorem eum, odio veritatis voluptate aut quis itaque ad, pariatur in distinctio eius nostrum a cum minima quaerat.",
+        "datey": "13-03-2023",
+        "dateh": "16-00",
+        "category": "fullstake",
+        "subcategory": "beckend",
+        "type": "ofline",
+        "postImg": "16723760266842022-12-02_13-03.png",
+        "isDeleted": false,
+        "status": "active",
+        "count": 7,
+        "user": {
+            "fullname": "salimjonov sirojiddin  ",
+            "phone": "+998974204500",
+            "job": "gdgdfnm"
+        },
+        "watched": [
+            "::2"
+        ]
+    },
+    {
+        "postId": 2,
+        "title": "Alisher Isaevdan biznes va IT bo’yicha master klass",
+        "text": "Najot Ta'lim jamoasi o'z o'quvchilari uchun manfaatli bo'lgan musobaqalarni tashkil etishda davom etadi. Biz bu gal markazimizdagi uch soha vakillari, ya'ni UX/UI dizayner, frontend va backend dasturchilarni \"bir dasturxon atrofida\" to'plashga qaror qildik.\n",
+        "description": "Najot Ta'lim jamoasi o'z o'quvchilari uchun manfaatli bo'lgan musobaqalarni tashkil etishda davom etadi. Biz bu gal markazimizdagi uch soha vakillari, ya'ni UX/UI dizayner, frontend va backend dasturchilarni \"bir dasturxon atrofida\" to'plashga qaror qildik.",
+        "dateYear": "31-12-2022",
+        "dateHour": "15-00",
+        "category": "Biznes",
+        "subcategory": "Tadbirkor",
+        "type": "Online",
+        "postImg": "1672614039494foto12.jpg",
+        "isDeleted": false,
+        "status": "result",
+        "count": 1,
+        "user": {
+          "fullname": "Alisher Isayev",
+          "phone": "998901232323",
+          "job": "Tadbirkor"
+        },
+        "watched": ["::1"]
+      }
+]

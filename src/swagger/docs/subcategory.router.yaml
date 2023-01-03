@@ -1,0 +1,23 @@
+/subcategory:
+  get:
+    tags:
+      - subCategory
+    responses:
+      "200":
+        description: all subCategory
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/SubcategoryGet"
+
+/fullname:
+  get:
+    tags:
+      - fullname:
+    responses:
+      "200":
+        description: all fullnames
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/fullNameGet"
